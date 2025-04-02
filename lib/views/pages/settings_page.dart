@@ -128,13 +128,13 @@ class _SettingsPageState extends State<SettingsPage> {
                   setState(() {
                     sliderValue = value;
                   });
-                  print(value);
+                  //print(value);
                 },
               ),
               InkWell(
                 splashColor: Colors.teal,
                 onTap: () {
-                  print('aaa');
+                  //print('aaa');
                 },
                 child: Container(
                   height: 200,
