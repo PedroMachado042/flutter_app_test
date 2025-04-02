@@ -38,7 +38,7 @@ class _MyAppState extends State<MyApp> {
           theme: ThemeData(
             colorScheme: ColorScheme.fromSeed(
               seedColor: Colors.teal,
-              brightness: isDarkMode ? Brightness.dark : Brightness.light,
+              brightness: isDarkMode ? Brightness.dark : Brightness.light, //bright mode
             ),
           ),
           home: WelcomePage(),
